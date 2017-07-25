@@ -9,9 +9,11 @@ paginate_path: /page/:num/
 tag_dir: /tag
 category_dir: /category
 author_dir: /author
-author_title_prefix: 'By '
+#author_title_prefix: 'By '
 media_folder: /img
 author_default_avatar: /profile-pic.jpg
+
+youtube: "#"
 twitter: "#"
 youtube: "#"
 
@@ -51,12 +53,12 @@ prose:
               value: "post"
             - name: "full width"
               value: "post_full"
-      - name: "author"
-        field:
-          element: "text"
-          label: "Author"
-          help: "author id as defined within _data/authors.yml"
-          type: "text"
+      #- name: "author"
+        #field:
+          #element: "text"
+          #label: "Author"
+          #help: "author id as defined within _data/authors.yml"
+          #type: "text"
       - name: "featimg"
         field:
           element: "text"
